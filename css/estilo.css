@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #ADD8E6;
+}
+
+
+
+/*layouts*/ 
+#area-cabecalho{
+	margin-left: 0px;
+	width: 100%;
+	background-color: #1E90FF;
+	text-align: center;
+	padding: 15px;
+	position: fixed ;
+}
+
+#area-principal{
+
+	background-color: white;
+	width: 920px;
+	margin: -20px auto;
+	padding: 15px;
+}
+
+#post{
+	width: 660px;
+	float: left;
+	margin: 130px auto;
+	
+}
+#menu-lateral{
+	width: 240px;
+	float: right;
+	background: #FFF;
+	margin: 130px auto;
+}
+
+#logo, #menu{
+	padding: 10px;
+}
+#rodape{
+	padding: 15px;
+	text-align: center;
+	background-color: #0000FF;
+	color: #FFF;
+	clear: both;
+}
+
+
+
+.amarelo{
+	color: #FFD700;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.conteudo-lateral{
+	background: #D3D3D3;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+#categoria{
+	background: #D3D3D3;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #0000FF;
+
+}
+.data-post{
+	font-size: 0.8em;
+	margin-bottom:10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+h1{
+	color: #FFF;
+	font-size: 2.5em;
+}
+h2{
+	color: #1E90FF;
+}
+h3{
+	background-color: #1E90FF;
+	color: white;
+	padding: 10px;
+}
+/*format menu*/
+#area-cabecalho a:link, a:visited{
+	color: #FFF;
+	padding: 8px;
+	text-decoration: none;
+}
+#area-cabecalho a:hover{
+ 	background-color: #0000FF;
+ 	color: #FFF;
+}
+a:link, a:visited{
+	color: color:#1E90FF ;
+	padding: 8px;
+	text-decoration: underline;
+}
+#Categoria a:link, a:visited{
+	color: color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+
+#categoria a:hover{
+ 	background-color: #0000FF;
+ 	color: #FFF;
+
